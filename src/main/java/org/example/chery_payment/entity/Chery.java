@@ -18,6 +18,8 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class Chery {
 
+
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
