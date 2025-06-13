@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: "add-tag-1.0.0"
+      author: sem
+
+  - include:
+      file: create-table-chery.yaml
+      relativeToChangelogFile: true
+

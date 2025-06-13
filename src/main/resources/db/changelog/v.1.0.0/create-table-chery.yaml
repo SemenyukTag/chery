@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-table-chery
+      author: sem
+
+  - include:
+      file: sql/create-table-chery.sql
